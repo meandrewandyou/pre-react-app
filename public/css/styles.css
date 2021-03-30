@@ -1,0 +1,102 @@
+body {
+  background-image: url("../images/blue-stellar-sky-watercolor-background.jpg");
+  background-size:     cover;                      /* <------ */
+      background-repeat:   no-repeat;
+}
+.intro {
+  color: white
+}
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+  opacity: 0.5;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.readmore{
+  display: inline;
+}
+.content{
+  display: inline;
+}
+
+.block{
+  display: inline-block;
+  width: 380px;
+  height: 500px;
+  border: solid 4px;
+  border-radius: 25px;
+  background-color: #fde8cd;
+  padding:5px 5px;
+  opacity: 0.8;
+  margin-bottom: 1rem;
+}
+
+
+
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+   height: 60px;
+   padding-top: 23px;
+margin-top: 60px;
+	background-color: #1abc9c;
+  opacity: 0.5;
+
+
+}
+
+.footer p {
+	font-size: 12px;
+  color: #fff;
+}
+
+
+
+
+	.addPost {
+		color: #fff;
+		font-size: 3rem;
+		font-family: "ubuntu";
+		text-transform: uppercase;
+		font-weight: bald;
+		font-family: "Josefin Sans", sans-serif;
+		background: linear-gradient(to right,#095fab 10%, #25abe8 50%, #57d75b 60%);
+		background-size: auto auto;
+		background-clip: border-box;
+		background-size: 200% auto;
+		color: #fff;
+		background-clip: text;
+		text-fill-color: transparent;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		animation: textclip 1.5s linear infinite;
+		display: inline-block;
+	}
+
+
+@keyframes textclip {
+	to {
+		background-position: 200% center;
+	}
+}

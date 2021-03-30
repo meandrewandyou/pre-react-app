@@ -1,0 +1,45 @@
+<%- include("partials/header"); -%>
+<h1>Home</h1>
+<p class="intro"><%= firstParagraph %></p>
+
+
+<div class="container">
+  <div class="row">
+    <% postContent.forEach(function(post){%>
+
+    <div class="block col-sm">
+      <h1><%= post.title %></h1>
+      <p class="content"><%= post.content.substring(0,100) + "..." %></p>
+      <a href="posts/<%= post.postID %>" class="readmore">Read more</a>
+      <form class="" action="/delete" method="post">
+        <button class="btn btn-sml btn-danger submit-post" type="submit" value="<%= post.postID %>" name="delete">Delete</button>
+
+      </form>
+    </div>
+    <%});%>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<%- include("partials/footer"); -%>
